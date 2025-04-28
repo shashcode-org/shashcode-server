@@ -72,7 +72,7 @@ app.post('/verify-payment', (req, res) => {
 });
 
 // healthcheck api
-app.get('/', (req, res) => {
+app.get('/health-check', (req, res) => {
     res.send('Server is running 🚀');
 });
 
